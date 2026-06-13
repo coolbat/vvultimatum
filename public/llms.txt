@@ -1,0 +1,23 @@
+# VV Ultimatum Guide
+
+Independent fan guide for VV: ULTIMATUM on Roblox.
+
+Primary pages:
+- /en/ - guide hub
+- /en/codes/ - active codes and source conflicts
+- /en/races/ - Quincy, Hollow, and Shinigami comparison
+- /en/guides/beginner-guide/ - first-session route
+- /en/guides/controls-keybinds/ - PC, console, and route-control notes
+- /en/guides/leveling-guide/ - Level 1-100 and fast leveling route
+- /en/guides/quincy-progression/ - Quincy progression
+- /en/guides/hollow-progression/ - Hollow progression
+- /en/guides/shinigami-progression/ - Shinigami and Shikai progression
+- /en/guides/clans-tier-list/ - race-aware clan tier list notes
+- /en/guides/vv-builder-build-planner/ - build planner and VV Builder search-intent page
+- /en/guides/spirit-charms/ - Spirit Charm rules
+- /en/guides/spirit-charm-tier-list/ - Spirit Charm tier list notes
+- /en/bosses/ - boss confidence tracker
+- /en/sources/ - source and research policy
+
+Source policy:
+Pages include checked dates and confidence labels. Update-sensitive game facts should be verified against the official Roblox game page, official community links, or current gameplay before being presented as final.
