@@ -60,7 +60,7 @@ export default function GuidesPage() {
                     <p>{guide.description}</p>
                     <p className="meta">{guide.primaryKeyword}</p>
                     <Link className="card-link" href={`/en/guides/${guide.slug}/`}>
-                      Open page
+                      Open {guide.title}
                     </Link>
                   </article>
                 ))}

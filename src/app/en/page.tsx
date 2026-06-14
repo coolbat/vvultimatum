@@ -41,11 +41,6 @@ export default function HomePage() {
       <JsonLd data={websiteJsonLd()} />
       <JsonLd data={videoGameJsonLd()} />
       <JsonLd data={faqJsonLd(homeFaq)} />
-      <JsonLd
-        data={breadcrumbJsonLd([
-          { name: "Home", path: "/en/" },
-        ])}
-      />
       <JsonLd data={itemListJsonLd(featuredEntries.map((entry) => ({ name: entry.title, path: entry.href, description: entry.description })))} />
 
       <main className="page">
@@ -115,7 +110,7 @@ export default function HomePage() {
                 <h3>{entry.title}</h3>
                 <p>{entry.description}</p>
                 <Link className="card-link" href={entry.href}>
-                  Open page
+                  Open {entry.title}
                 </Link>
               </article>
             ))}

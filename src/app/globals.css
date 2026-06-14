@@ -53,6 +53,31 @@ a {
   text-decoration: none;
 }
 
+.skip-link {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 100;
+  border: 1px solid rgba(69, 179, 155, 0.44);
+  border-radius: 8px;
+  background: #fff8ef;
+  color: #17100d;
+  padding: 10px 12px;
+  font-weight: 900;
+  transform: translateY(-140%);
+  transition: transform 180ms var(--ease);
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+
+#main-content:focus {
+  outline: none;
+}
+
 img {
   display: block;
   max-width: 100%;

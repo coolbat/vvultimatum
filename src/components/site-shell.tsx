@@ -14,6 +14,9 @@ const navItems = [
 export function SiteShell({ children }: { children: React.ReactNode }) {
   return (
     <div className="site-frame">
+      <a className="skip-link" href="#main-content">
+        Skip to content
+      </a>
       <header className="site-header">
         <Link className="brand" href="/en/" aria-label="VV Ultimatum Guide home">
           <span className="brand-mark" aria-hidden="true">
@@ -35,7 +38,9 @@ export function SiteShell({ children }: { children: React.ReactNode }) {
           Play <ExternalLink size={15} />
         </a>
       </header>
-      {children}
+      <div id="main-content" tabIndex={-1}>
+        {children}
+      </div>
       <footer className="site-footer">
         <div>
           <div className="footer-title">

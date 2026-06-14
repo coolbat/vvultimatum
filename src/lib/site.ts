@@ -3,7 +3,7 @@ export const site = {
   shortName: "VVU Guide",
   description:
     "A source-checked fan guide for VV: ULTIMATUM on Roblox, covering codes, races, controls, leveling, clans, builds, Hollow and Quincy progression, Spirit Charms, bosses, and safe official links.",
-  canonicalBaseUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.vvultimatum.org",
+  canonicalBaseUrl: process.env.NEXT_PUBLIC_SITE_URL ?? "https://vvultimatum.games",
   locale: "en_US",
   gameName: "VV: ULTIMATUM",
   developer: "Midnight Continent",
